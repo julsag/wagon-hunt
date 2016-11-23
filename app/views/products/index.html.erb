@@ -1,0 +1,16 @@
+<div class="text-center">
+
+<ul>
+	
+<% @products.each do |product| %>
+
+<li>
+	
+	<%= product.name %> ( <%= product.url %> )
+</li>
+
+
+<% end %>	
+</ul>
+
+</div>
