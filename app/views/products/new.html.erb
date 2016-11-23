@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12" >
+
+<h1 class="text-center">Ajouter un produit</h1>
+
+
+<%= simple_form_for @product do |f|  %>
+<%= f.input :name, placeholder: "Kudoz", label: "Produit"  %>
+<%= f.input :url, placeholder: "www.com", label: "URL"  %>
+<%= f.button :submit, "Ajouter", class: "btn btn-primary"  %>
+
+<%end%>
+
+			
+		</div>
+	</div>	
+</div>
+
+
